@@ -1,0 +1,170 @@
+.body {
+  background-color: whitesmoke;
+}
+.sinfo{
+  line-height: 1rem;
+}
+.sinfo h4{
+  line-height: 1.5rem;
+}
+.sl1{
+  width: 98vw;
+margin-left: 10px;
+height: 500px;
+overflow: none;
+}
+.sl1 img{
+  width: 100vw;
+  height: 500px;
+
+  object-fit: fill;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.auto-type {
+  color: rgb(10, 10, 10);
+  font-size: 3.8rem;
+}
+
+.typed-cursor,
+typed-cursor--blink {
+  color: rgb(36, 34, 34);
+  font-size: 3.8rem;
+}
+#home {
+  display: flex;
+  flex-direction: row;
+  padding: 3px 200px;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  line-height: 90px;
+  transition: ease-in-out 3s;
+ border-radius: 20px;
+ margin: 20px;
+  
+}
+.last-b{
+  
+  background-color: blue;
+  background-image:linear-gradient(rgba(7, 0, 0, 0.948),rgba(0,0,0,0.6)) ,url(hostel.jpg);
+ width: 98.50vw; 
+ background-size: cover;
+height: 600px;
+}
+.last-b img{
+
+align-items: center;
+justify-content: center;
+margin-top: 150px;
+margin-left: 650px;
+}
+.qute{
+color: white;
+text-align: center;
+
+
+}
+.marquee{
+margin: 0px;
+
+}
+.section-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.section-container .coloumn{
+  flex:0 0 auto;
+  width:50%;
+}
+.section-container .coloumn .image{
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+margin: 100PX;
+margin-top: 100px;
+height: 400px;
+width: 500px;
+object-fit: cover;
+border: 2px solid black;
+border-radius: 20px;
+animation-name: image;
+animation-duration: 4s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+}
+
+@keyframes image {
+  0%   {transform: rotate(2deg);}
+  25%  {transform: rotate(2deg); ;}
+  50%  {transform: rotate(-4deg);}
+ 
+}
+.section-container .coloumn .content{
+
+  padding: 30px 30px;
+  margin: 15px;
+}
+.section-container .coloumn .content h5{
+font-weight: 700;
+font-size: 250px;
+margin-bottom: 25px;
+
+}
+.content-container{
+  padding: 75px;
+}
+.objectives{
+  background-image:linear-gradient(rgba(7, 0, 0, 0.948),rgba(0,0,0,0.6)) ,url(hostel.jpg);
+width: 98.50vw; 
+background-size: cover;
+align-items: center;
+justify-content: center;
+height: 700px;}
+.sub-objectives{align-items: center;
+  width: 450px;
+  color: white;
+  padding-left: 150px;
+  padding-top:30px ;
+  display: inline-block;
+  text-align: center;
+}
+.copyright{
+  height: 100px;
+  padding: 0px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: rgb(30, 27, 27);
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.con-facility{
+  background-color: antiquewhite;
+ position: relative;
+  border: 2px double black;
+  /* padding-right: 30px; */
+  height: 100px;
+}
+.facility {
+  position: static;
+text-decoration-line: none;
+display: inline-block;
+padding-left: 0px;
+font-size: 18px;
+margin-left: 250px;
+font-weight: bold;
+list-style-type: none;
+}
+.mid-facility{
+  left: 0px;
+  position: absolute;
+ 
+  display: inline-block;
+  box-sizing:border-box ;
+  padding: 0;
+}
